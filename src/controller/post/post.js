@@ -73,7 +73,7 @@ import { Sequelize } from "sequelize";
             data.userUserid=userUserid
             const newdata= await data.save()
             return res.json({
-                Message:"Data Updated...",
+                Message:"Data Updated....",
                 newdata,
             })
         }
